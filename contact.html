@@ -1,0 +1,36 @@
+¸<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Contact us</h1>
+
+        <section id="contact-section">
+            <form action="mailto:amela.vatres@stu.ibu.edu.ba" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+
+        
+        <section id="email-link">
+            <p>If you prefer, you can contact our supervisor with an <a href="mailto:amela.vatres@stu.ibu.edu.ba">email directly</a>.</p>
+        </section>
+    </main>
+    <script src="js/contact.js"></script>
+</body>
+</html>
